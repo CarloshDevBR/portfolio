@@ -14,10 +14,15 @@ in this case it was downloaded, this library creates card effects that were used
 **<p align="center">🚧 The project is in the process of being updated.. 🚧</p>**
 
 ### 🚀🚀Features
-- [x](scroll animations) - link: [Animate.css](https://animate.style/)
-- [x](parallax effect)
-- [x](animated cards) - link: [Vanilla.tilt](https://micku7zu.github.io/vanilla-tilt.js/)
-- [x](effects on buttons)
+- [x] scroll animations
+- [x] parallax effect
+- [x] animated cards
+- [x] effects on buttons
+
+#### libraries link
+link scroll animations: [Animate.css](https://animate.style/)
+link animated cards: [Vanilla.tilt](https://micku7zu.github.io/vanilla-tilt.js/)
+
 
 ![Procejt](/Project.gif)
 
