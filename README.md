@@ -39,7 +39,7 @@ $ yarn or npm
 #the server will initialize in the <http://localhost:3000>
 ```
 
-###🛠️Technologies
+### 🛠️Technologies
 - [HTML5]()
 - [CSS3]()
 - [JavaScript/ES6]()
