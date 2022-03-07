@@ -19,9 +19,9 @@ in this case it was downloaded, this library creates card effects that were used
 - [x] animated cards
 - [x] effects on buttons
 
-#### libraries link
-link scroll animations: [Animate.css](https://animate.style/)
-link animated cards: [Vanilla.tilt](https://micku7zu.github.io/vanilla-tilt.js/)
+#### 📚libraries link
+##### link scroll animations: [Animate.css](https://animate.style/)
+##### link animated cards: [Vanilla.tilt](https://micku7zu.github.io/vanilla-tilt.js/)
 
 
 ![Procejt](/Project.gif)
