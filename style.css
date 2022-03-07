@@ -1,0 +1,469 @@
+/* ============== Parte 1 ============== */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 54pt;
+    padding-bottom: 30px;
+    animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon: white;
+}
+
+p {
+    font-size: 16pt;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.h1-p1 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.img01 {
+    background-image: url(./img/espaço.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#img-perfil {
+    width: 350px;
+    animation: movePerfil 2s infinite alternate;
+    padding-top: 130px;
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon))
+    }
+    to {
+        filter: drop-shadow(0 0 20px var(--cor-neon))
+    }
+}
+
+@keyframes movePerfil {
+    from {
+        transform: translate(-1%, -1%)rotate(-1deg);
+    }
+}
+
+
+/* ============== Parte 2 ============== */
+
+.caixa-02 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    font-size: 12pt;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f1b;
+    border: #f1b 3px solid;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 #f1b, 0 0 10px 0 #f1b;
+    transition: all 0.7s ease-in-out;
+}
+
+.neon:hover {
+    box-shadow: inset 0 0 30px 0 #f1b, 0 0 90px 0 #f1b;
+}
+
+.card {
+    background-color: brown;
+    width: 210px;
+    height: 270px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.cards {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    font-size: 10pt;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-js {
+    width: 150px;
+}
+
+.p-card {
+    width: 90%;
+    font-size: 8pt;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+/* ============== Parte 3 ============== */
+
+.botao-link {
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 30px;
+    font-size: 12pt;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: rgb(30, 248, 30) 3px solid;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 #f1b, 0 0 10px 0 #f1b;
+    transition: all 0.7s ease-in-out;
+}
+
+.neon-link:hover {
+    box-shadow: inset 0 0 30px 0 rgb(25, 255, 17), 0 0 90px 0 rgb(50, 237, 26);
+}
+
+.neon-link-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+    font-size: 12pt;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(247, 218, 239);
+    border: rgb(30, 106, 248) 3px solid;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 rgb(247, 182, 228), 0 0 10px 0 rgb(230, 176, 214);
+    transition: all 0.7s ease-in-out;
+}
+
+.neon-link-2:hover {
+    box-shadow: inset 0 0 30px 0 rgb(28, 104, 192), 0 0 90px 0 rgb(45, 62, 209);
+}
+
+.links-pro {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.caixa-link {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+
+.p-link {
+    margin-top: 15px;
+    font-size: 10pt;
+    color: rgb(249, 254, 252);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    width: 100%;
+    height: 580px;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.5);
+}
+
+#fotos-1 {
+    background-image: url(./img/site-01.PNG);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 500px 500px;
+    height: 200px;
+    width: 200px;
+}
+
+#fotos-1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#fotos-2 {
+    background-image: url(./img/site-02.PNG);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    height: 200px;
+    width: 200px;
+}
+
+#fotos-2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#fotos-3 {
+    background-image: url(./img/site-03.PNG);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    height: 200px;
+    width: 200px;
+}
+
+#fotos-3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+/* ============== Parte 4 ============== */
+
+.img02 {
+    background-image: url(./img/galaxy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    margin-top: 200px;
+}
+
+
+/* ============== Parte 5 ============== */
+
+.end-sec {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+h4 {
+    font-size: 17pt;
+}
+
+.textfinal {
+    padding-top: 10px;
+    font-size: 10pt;
+}
+
+.text-end {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.caixa-text {
+    width: 40%;
+    padding-bottom: 15px;
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+    padding: 0 50px 0 50px;
+}
+
+.caixa-redes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ============== Parte 6 ============== */
+
+@media (max-width:958px) {
+    .img01 {
+        flex-direction: column-reverse;
+    }
+    .botao {
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+    }
+    .cards {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .links-pro {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .album {
+        height: 50%;
+        margin-top: 200px;
+    }
+    .caixa-link {
+        flex-direction: column;
+    }
+    .flex {
+        width: 100%;
+    }
+    .text-end {
+        flex-direction: column;
+        margin-right: 70px;
+        padding-bottom: 50px;
+    }
+    h1 {
+        font-size: 30pt;
+        margin-left: 120px;
+    }
+    p {
+        width: 250px;
+        font-size: 10pt;
+        margin-left: 100px;
+    }
+    .p-card {
+        width: 170px;
+        margin-right: 80px;
+    }
+    .textfinal {
+        padding-bottom: 15px;
+    }
+    .p-link {
+        margin-right: 80px;
+        margin-bottom: 15px;
+    }
+    .neon-link-2 {
+        margin-bottom: 30px;
+    }
+    h4 {
+        font-size: 12pt;
+        margin-left: 95px;
+        width: 300px;
+    }
+    .end-sec {
+        height: 400px;
+    }
+    .botao-link {
+        width: 200px;
+    }
+    .botao-link a {
+        font-size: 100%;
+        text-align: center;
+    }
+    .caixa-text {
+        margin-right: 155px;
+    }
+    .flex {
+        overflow: hidden;
+    }
+    .caixa-02 {
+        margin-top: 300px;
+    }
+}
