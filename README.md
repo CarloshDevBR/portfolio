@@ -25,7 +25,7 @@ in this case it was downloaded, this library creates card effects that were used
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92805039/157180015-e5bdb952-b9eb-49c4-9d5e-3b059fe04946.gif" />
-</p>
+<p
 
 [Cloud project link](https://affectionate-morse-bd0954.netlify.app/)
 
