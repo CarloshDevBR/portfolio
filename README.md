@@ -23,8 +23,9 @@ in this case it was downloaded, this library creates card effects that were used
 ##### link scroll animations: [Animate.css](https://animate.style/)
 ##### link animated cards: [Vanilla.tilt](https://micku7zu.github.io/vanilla-tilt.js/)
 
-
-![Procejt](/Project.gif)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92805039/157180015-e5bdb952-b9eb-49c4-9d5e-3b059fe04946.gif" />
+</p>
 
 [Cloud project link](https://affectionate-morse-bd0954.netlify.app/)
 
