@@ -41,7 +41,7 @@ $ git clone <https://github.com/CarloshDevBR/portfolio>
 # access the project through the terminal/cmd
 $ cd portfolio
 #run the project
-$ yarn or npm
+$ open with live server extension
 #the server will initialize in the <http://localhost:3000>
 ```
 
